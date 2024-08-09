@@ -189,6 +189,9 @@ callUsButton.addEventListener('click', () => {
     window.location.href = `tel:${phoneNumber}`;
 });
 
+fetch('https://example.github.io/Vamsi naik's-Responsive-Portfolio/jsonfile.json')
+    .then((response) => response.json())
+    .then((data) => console.log(data));
 
 
 
